@@ -1,0 +1,41 @@
+{
+  "name": "skillet",
+  "version": "0.3.0",
+  "description": "Universal skills installer for Claude Code, Qwen Code, Gemini CLI, Aider, and more",
+  "main": "lib/skillet.js",
+  "bin": {
+    "skillet": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js help"
+  },
+  "keywords": [
+    "skills",
+    "skills.sh",
+    "claude-code",
+    "qwen-code",
+    "gemini-cli",
+    "aider",
+    "codex",
+    "cursor"
+  ],
+  "author": "dotMavriQ",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotMavriQ/skillet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dotMavriQ/skillet/issues"
+  },
+  "homepage": "https://github.com/dotMavriQ/skillet#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "lib/"
+  ],
+  "preferGlobal": true
+}
